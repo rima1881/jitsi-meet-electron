@@ -84,6 +84,7 @@ class ServerURLField extends Component<Props, State> {
                     onBlur = { this._onServerURLSubmit }
                     onChange = { this._onServerURLChange }
                     placeholder = { config.defaultServerURL }
+                    disabled = 'True'
                     shouldFitContainer = { true }
                     type = 'text'
                     value = { this.state.serverURL } />
